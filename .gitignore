@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual Environment
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# AI models
+models/*.pt
+models/*.onnx
+models/*.engine
+
+# Datasets
+datasets/*
+!datasets/.gitkeep
+
+# Runtime storage
+storage/*
+!storage/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
